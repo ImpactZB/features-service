@@ -1,0 +1,6 @@
+server:
+  port: 8080
+
+springdoc:
+  packagesToScan: com.impactzb.featuresservice.api
+  pathsToMatch: /feature/**, /user/feature/**
