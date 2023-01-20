@@ -63,15 +63,25 @@ Endpoints created for user with ADMIN role, that let him/her to load all data of
 User with role OBSERVER is not allowed to do any action.
 
 Application stores data in memory, so that it would not be available after application restart. There is a lot of missing features, that were not implemented because of limited time, among others:
+
 -Already mentioned working Swagger/OpenApi documentation.
+
 -Data validation, please fill in properties in your requests.
+
 -Error handling at any form.
+
 -Data storage at any persistent form and real domain layer.
+
 -Data consistency validation, relations between feature and userFeature objects
+
 -Security layer that should based on more sophisticated solution, delegating user authentication and authorization to valid, external services.
+
 -Fully tested business logic, really because of time limitation. There should be tested all scenarios. A put more impact on integrations tests as that was quickest way to verify application functionalities.
+
 -Service pipeline definition.
+
 -Any containerization setup.
+
 -Postman collections for test purposes.
 
 Finally, implementation may have a bugs, hope not. I didn't have enough time to test it fully. Please understand.  
